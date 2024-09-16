@@ -273,6 +273,8 @@ export const DATA = {
       description:
         "In my role as a secretary, I manage student body records, create meeting agendas, represent the student body at school district and civic events, prepare documents for officers and committee chairs, and document and distribute meeting minutes to facilitate clear communication and organization.",
       links: [],
+      image:
+      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
     },
     {
       title: "Math and Physics Department (ACE-Q Club)",
@@ -281,6 +283,8 @@ export const DATA = {
       description:
         "In my role as a tutor, I assess gaps in students' knowledge and comprehension, offering tailored guidance to meet their individual needs. I focus on enhancing their foundational mathematical skills, identifying and addressing misconceptions, and clarifying mathematical concepts to promote a deeper understanding.",
       links: [],
+      image:
+      "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
     },
   ],
 } as const;
