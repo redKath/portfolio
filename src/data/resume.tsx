@@ -83,7 +83,7 @@ export const DATA = {
       badges: ['Project-based'],
       location: "Remote",
       title: "Full-Stack Software Developer",
-      logoUrl: "/APOA-LOGO.png",
+      logoUrl: "APOA-LOGO.png",
       start: "June 2024",
       end: "current",
       description:
@@ -95,7 +95,7 @@ export const DATA = {
       href: "https://itas-solutions.com/",
       location: "Remote",
       title: "Full-Stack Software Developer",
-      logoUrl: "/ITAS-LOGO.png",
+      logoUrl: "ITAS-LOGO.png",
       start: "July 2023",
       end: "August 2024",
       description:
@@ -131,7 +131,7 @@ export const DATA = {
       school: "Technological Institute of the Philippines - Quezon City",
       href: "https://buildspace.so",
       degree: "Bachelor of Science in Computer Engineering, Major in Data Science - Cum Laude",
-      logoUrl: "/TIP-LOGO.png",
+      logoUrl: "TIP-LOGO.png",
       start: "2018",
       end: "2022",
     },
@@ -160,7 +160,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Vige & Co.png",
+      image: "Vige & Co.png",
       video: ""
     },
     {
@@ -186,7 +186,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Space Rocket with Speedometer.png",
+      image: "Space Rocket with Speedometer.png",
       video: ""
     },
     {
@@ -210,7 +210,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/django-todo-crud.png",
+      image: "django-todo-crud.png",
       video: ""
     },
     {
