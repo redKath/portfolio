@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Kathleen Jogno",
   initials: "KJ",
-  url: "https://dillion.io",
+  url: "https://redkath.github.io/portfolio/",
   location: "Tanauan, Batangas, Philippines",
   locationLink: "https://maps.app.goo.gl/yGKsAUBBTd7cT2U67",
   description:
     "Full-Stack Software Developer, bookworm, and an astronomy nerd. When I'm not building apps, I'm hanging out with my cat and exploring the cosmos.",
   summary:
     "I've spent the past two years building web apps as a Full-Stack Software Developer, using Python and JavaScript. With a background in Computer Engineering and a major in Data Science, I'm equally at home coding and crunching numbers.",
-  avatarUrl: "/me.png",
+  avatarUrl: "me.png",
   skills: [
     "AWS Lambda",
     "Alpaca API",
@@ -160,7 +160,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Vige & Co.png",
+      image: "Vige-Co.png",
       video: ""
     },
     {
