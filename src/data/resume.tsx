@@ -138,6 +138,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Plucky Words (Wordpress Blog Site)",
+      href: "https://norasavir.com/",
+      dates: "January 2023 - December 2023",
+      active: true,
+      description:
+        "I created NoraSavir.com as a beautifully designed website to reflect my client's passion for travel and poetry. Using WordPress, I crafted a modern and inviting aesthetic that captures the essence of their adventures and creative expression. \nI carefully designed the overall look and feel, from the harmonious color palette to the intuitive layout and custom logo, ensuring a seamless user experience that resonates with fellow travelers and poetry lovers alike.To bring this vision to life, \nI utilized the Astra Theme, known for its flexibility and performance, allowing for a clean and responsive design that looks stunning on all devices. I also used Canva to create eye-catching graphics and visuals that enhance the site's appeal. The integration of the TranslatePress Plugin enables multilingual support, making the content accessible to a broader audience. \nWith a focus on sharing travel experiences and poetic inspiration, I am proud to present NoraSavir.com as a vibrant showcase of design and functionality that invites visitors to explore and connect.",
+      technologies: [
+        "Wordpress",
+        "Canva",
+        "Astra Theme",
+        "TranslatePress Plugin"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://norasavir.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "plucky-words-wordpress-blog.png",
+      video: ""
+    },
+    {
       title: "Hair Salon Website",
       href: "https://vigeandcosalon.netlify.app/",
       dates: "August 2022",
