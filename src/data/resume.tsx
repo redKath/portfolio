@@ -37,6 +37,7 @@ export const DATA = {
     "React",
     "Semantic HTML5",
     "Tailwind CSS",
+    "WordPress"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
