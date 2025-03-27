@@ -14,7 +14,10 @@ export const DATA = {
   avatarUrl: "me.png",
   skills: [
     "AWS Lambda",
+    "AWS EC2",
+    "AWS DynamoDB",
     "Alpaca API",
+    "Bitbucket",
     "C++",
     "Django",
     "Docker",
@@ -22,6 +25,7 @@ export const DATA = {
     "Google Ads API",
     "Google Analytics API",
     "Git",
+    "GitHub",
     "jQuery",
     "Koa.js",
     "Linux OS",
@@ -35,8 +39,12 @@ export const DATA = {
     "PostgreSQL",
     "Prisma",
     "React",
+    "REST API",
     "Semantic HTML5",
+    "SSH",
+    "Stripe API",
     "Tailwind CSS",
+    "Trello",
     "WordPress"
   ],
   navbar: [
@@ -78,6 +86,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Mesa County Roofs",
+      href: "https://mesacountyroofs.com/",
+      badges: ['Project-based'],
+      location: "Remote",
+      title: "Full-Stack Software Developer",
+      logoUrl: "mcr-logo.png",
+      start: "October 2024",
+      end: "current",
+      description:
+        "Built map-based fantasy sports game using Node.js, React.js, Express.js, Socket.io, and AWS DynamoDB. Deployed game using AWS EC2 instances and Nginx. Configured tables to auto-scale based on traffic in the game.",
+    },
     {
       company: "Answerphone of America",
       href: "https://answerphoneofamerica.com/",
@@ -138,6 +158,84 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Maptasy (Map-based Fantasy Sports Game)",
+      href: "https://maptasy.com/",
+      dates: "October 2024 - current",
+      active: true,
+      description:
+        "Maptasy is a brainchild of fantasy-sports enthusiasts who has love for geography. I was one of the developers that built it. Using Socket.io and Node.js, the players were able to play the game seamlessly. The game has a modern look and feel thanks to React.js and TailwindCSS. It was deployed using AWS EC2 and AWS DynamoDB. It was fun building this app as I also get to dive into the world of Fantasy Sports.",
+      technologies: [
+        "AWS DynamoDB",
+        "AWS EC2",
+        "Express.js",
+        "Nginx",
+        "Node.js",
+        "React.js",
+        "Socket.io",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://maptasy.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "maptasy-website.png",
+      video: ""
+    },
+    {
+      title: "Clickbacks App",
+      href: "https://app.clickbacks.co/",
+      dates: "June 2024 - current",
+      active: true,
+      description:
+        "Clickbacks allows users to track the performance of their ads and detect if there are bot/fraud activities. Users are also able to export reports and potentially contest those invalid clicks for monetary credit. It was built on top of Google Ads API, Google Analytics API and Next.js. Database interaction was performed using Prisma ORM for MySQL",
+      technologies: [
+        "Google Ads API",
+        "Google Analytics API",
+        "Stripe API",
+        "Next.js",
+        "Nginx",
+        "Prisma",
+        "MySQL",
+        "React.js",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://app.clickbacks.co/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "clickbacks.png",
+      video: ""
+    },
+    {
+      title: "Clickbacks Front-end App",
+      href: "https://clickbacks.co/",
+      dates: "June 2024 - current",
+      active: true,
+      description:
+        "This is the marketing website for the Clickbacks App. This serves as the landing page that provides users with essential information to understand how the app works, how they can send inquiries or feedback, what are the features, how it can help them manage their ads better, etc. This is built using Next.js, React.js, and TailwindCSS.",
+      technologies: [
+        "Next.js",
+        "Nginx",
+        "React.js",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://clickbacks.co/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "clickbacks-frontend.png",
+      video: ""
+    },
     {
       title: "Plucky Words (Wordpress Blog Site)",
       href: "https://norasavir.com/",
