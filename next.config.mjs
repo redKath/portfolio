@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/portfolio",
+  basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "", 
   output: "export",
   reactStrictMode: true,
   images: {
@@ -9,7 +9,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'redkath.github.io',
         port: '',
-        pathname: '/porfolio/**',
+        pathname: '/portfolio/**',
       },
     ],
   },
