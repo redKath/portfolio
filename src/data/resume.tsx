@@ -106,7 +106,7 @@ export const DATA = {
       title: "Full-Stack Software Developer",
       logoUrl: "APOA-LOGO.png",
       start: "June 2024",
-      end: "current",
+      end: "July 2025",
       description:
         "Implemented data visualization pages for MVP using Next.js, TailwindCSS, Chakra-UI, Apex Charts and Google Ads + Google Analytics API. Deployed MVP using Digital Ocean, Nginx and Ubuntu server. Built landing page for MVP using Next.js, TailwindCSS, React Bootstrap, and HTML5.",
     },
