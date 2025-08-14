@@ -185,57 +185,57 @@ export const DATA = {
       image: "maptasy-website.png",
       video: ""
     },
-    {
-      title: "Clickbacks App",
-      href: "https://app.clickbacks.co/",
-      dates: "June 2024 - current",
-      active: true,
-      description:
-        "Clickbacks allows users to track the performance of their ads and detect if there are bot/fraud activities. Users are also able to export reports and potentially contest those invalid clicks for monetary credit. It was built on top of Google Ads API, Google Analytics API and Next.js. Database interaction was performed using Prisma ORM for MySQL",
-      technologies: [
-        "Google Ads API",
-        "Google Analytics API",
-        "Stripe API",
-        "Next.js",
-        "Nginx",
-        "Prisma",
-        "MySQL",
-        "React.js",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://app.clickbacks.co/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "clickbacks.png",
-      video: ""
-    },
-    {
-      title: "Clickbacks Front-end App",
-      href: "https://clickbacks.co/",
-      dates: "June 2024 - current",
-      active: true,
-      description:
-        "This is the marketing website for the Clickbacks App. This serves as the landing page that provides users with essential information to understand how the app works, how they can send inquiries or feedback, what are the features, how it can help them manage their ads better, etc. This is built using Next.js, React.js, and TailwindCSS.",
-      technologies: [
-        "Next.js",
-        "Nginx",
-        "React.js",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://clickbacks.co/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "clickbacks-frontend.png",
-      video: ""
-    },
+    // {
+    //   title: "Clickbacks App",
+    //   href: "https://app.clickbacks.co/",
+    //   dates: "June 2024 - current",
+    //   active: true,
+    //   description:
+    //     "Clickbacks allows users to track the performance of their ads and detect if there are bot/fraud activities. Users are also able to export reports and potentially contest those invalid clicks for monetary credit. It was built on top of Google Ads API, Google Analytics API and Next.js. Database interaction was performed using Prisma ORM for MySQL",
+    //   technologies: [
+    //     "Google Ads API",
+    //     "Google Analytics API",
+    //     "Stripe API",
+    //     "Next.js",
+    //     "Nginx",
+    //     "Prisma",
+    //     "MySQL",
+    //     "React.js",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://app.clickbacks.co/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "clickbacks.png",
+    //   video: ""
+    // },
+    // {
+    //   title: "Clickbacks Front-end App",
+    //   href: "https://clickbacks.co/",
+    //   dates: "June 2024 - current",
+    //   active: true,
+    //   description:
+    //     "This is the marketing website for the Clickbacks App. This serves as the landing page that provides users with essential information to understand how the app works, how they can send inquiries or feedback, what are the features, how it can help them manage their ads better, etc. This is built using Next.js, React.js, and TailwindCSS.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Nginx",
+    //     "React.js",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://clickbacks.co/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "clickbacks-frontend.png",
+    //   video: ""
+    // },
     {
       title: "Plucky Words (Wordpress Blog Site)",
       href: "https://norasavir.com/",
