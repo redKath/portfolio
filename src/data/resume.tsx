@@ -21,6 +21,7 @@ export const DATA = {
     "C++",
     "Django",
     "Docker",
+    "Express.js",
     "Flask",
     "Google Ads API",
     "Google Analytics API",
@@ -43,6 +44,7 @@ export const DATA = {
     "Semantic HTML5",
     "SSH",
     "Stripe API",
+    "TypeScript",
     "Tailwind CSS",
     "Trello",
     "WordPress"
@@ -93,8 +95,8 @@ export const DATA = {
       location: "Remote",
       title: "Full-Stack Software Developer",
       logoUrl: "mcr-logo.png",
-      start: "October 2024",
-      end: "current",
+      start: "",
+      end: "Present",
       description:
         "Built map-based fantasy sports game using Node.js, React.js, Express.js, Socket.io, and AWS DynamoDB. Deployed game using AWS EC2 instances and Nginx. Configured tables to auto-scale based on traffic in the game.",
     },
@@ -105,8 +107,8 @@ export const DATA = {
       location: "Remote",
       title: "Full-Stack Software Developer",
       logoUrl: "APOA-LOGO.png",
-      start: "June 2024",
-      end: "July 2025",
+      start: "2024",
+      end: "2025",
       description:
         "Implemented data visualization pages for MVP using Next.js, TailwindCSS, Chakra-UI, Apex Charts and Google Ads + Google Analytics API. Deployed MVP using Digital Ocean, Nginx and Ubuntu server. Built landing page for MVP using Next.js, TailwindCSS, React Bootstrap, and HTML5.",
     },
@@ -117,8 +119,8 @@ export const DATA = {
       location: "Remote",
       title: "Full-Stack Software Developer",
       logoUrl: "ITAS-LOGO.png",
-      start: "July 2023",
-      end: "August 2024",
+      start: "2023",
+      end: "2024",
       description:
         "Implemented custom API endpoints using Python to fetch and display dynamic data on the website, ensuring seamless data integration and real-time updates. Developed custom reusable components using Preact, HTML, CSS, and jQuery, streamlining the creation of dynamic web pages and enhancing the overall user experience across the website.",
     },
@@ -129,20 +131,20 @@ export const DATA = {
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "",
-      start: "October 2022",
-      end: "April 2023",
+      start: "2022",
+      end: "2023",
       description:
         "Engineered a Python-based trading bot leveraging the Alpaca API for automated trading strategies. Developed a command-line accessible data visualization tool using Python, Pandas, Jupyter Notebook, and MATLAB to create pipeline task charts. Additionally, implemented web scraping solutions to extract, transform, and store structured data as JSON files for further processing. These projects were independently developed, showcasing my ability to execute full-cycle development—from conceptualization to deployment—across different domains like automation, data visualization, and web scraping.",
     },
     {
       company: "NeoDocto Inc.",
       href: "",
-      badges: [],
+      badges: ['Internship'],
       location: "Remote",
       title: "Web Development Intern",
       logoUrl: "",
-      start: "July 2022",
-      end: "May 2022",
+      start: "2022",
+      end: "2022",
       description:
         "Engaging in client consultations to analyze and identify their specific requirements for social media and chatbot implementations, while effectively communicating the features and benefits of services to underscore the value proposition of the proposed solutions. Additionally, responsible for maintaining and updating client information in CRM and project management software, as well as actively participating in virtual meetings with expert teams to ensure collaborative alignment on project objectives.",
     }
@@ -183,6 +185,40 @@ export const DATA = {
         },
       ],
       image: "maptasy-website.png",
+      video: ""
+    },
+    {
+      title: "AeroTrack - Live Flight Tracking",
+      href: "https://aerotrack-9z4c.vercel.app/",
+      dates: "November 2025 - current",
+      active: true,
+      description:
+        "Real-time flight tracking web app with interactive maps. Built with React, TypeScript, Socket.IO & OpenSky Network API. Features live aircraft positions, detailed flight info, and mobile-responsive design. ",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "Express.js",
+        "Render",
+        "Node.js",
+        "Vercel",
+        "Socket.io",
+        "TailwindCSS",
+        "OpenSky Network API",
+        "Leaflet.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://aerotrack-9z4c.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/redKath/aerotrack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "aerotrack-website.png",
       video: ""
     },
     // {
@@ -335,29 +371,29 @@ export const DATA = {
       image: "django-todo-crud.png",
       video: ""
     },
-    {
-      title: "Django Blog App",
-      href: "",
-      dates: "August 2024 - current",
-      active: true,
-      description:
-        "I am currently developing a blog application using Django, which provides a platform for users to create, share, and manage blog posts. The app features user authentication, allowing for personalized experiences, and includes functionalities for creating, editing, and commenting on posts. This project showcases the capabilities of Django for building scalable web applications and is hosted on GitHub for version control and collaboration.",
-      technologies: [        
-        "CSS3",
-        "Django",
-        "Python",
-        "Semantic HTML5",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/redKath/django-blog-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      video: "",
-      image: "",
-    },
+    // {
+    //   title: "Django Blog App",
+    //   href: "",
+    //   dates: "August 2024",
+    //   active: true,
+    //   description:
+    //     "I am currently developing a blog application using Django, which provides a platform for users to create, share, and manage blog posts. The app features user authentication, allowing for personalized experiences, and includes functionalities for creating, editing, and commenting on posts. This project showcases the capabilities of Django for building scalable web applications and is hosted on GitHub for version control and collaboration.",
+    //   technologies: [        
+    //     "CSS3",
+    //     "Django",
+    //     "Python",
+    //     "Semantic HTML5",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/redKath/django-blog-app",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   video: "",
+    //   image: "",
+    // },
   ],
   organizations: [
     {
