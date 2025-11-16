@@ -152,7 +152,7 @@ export const DATA = {
   education: [
     {
       school: "Technological Institute of the Philippines - Quezon City",
-      href: "https://buildspace.so",
+      href: "https://tip.edu.ph/",
       degree: "Bachelor of Science in Computer Engineering, Major in Data Science - Cum Laude",
       logoUrl: "TIP-LOGO.png",
       start: "2018",
