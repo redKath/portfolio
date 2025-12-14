@@ -1,6 +1,13 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+const startDate = new Date('2022-10-01');
+const currentDate = new Date();
+const years = Math.floor((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25));
+const yearWord = years === 1 ? 'year' : 'years';
+const numberWords = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+const yearsWord = numberWords[years] || years.toString();
+
 export const DATA = {
   name: "Kathleen Jogno",
   initials: "KJ",
@@ -10,7 +17,7 @@ export const DATA = {
   description:
     "Full-Stack Software Developer, bookworm, and an astronomy nerd. When I'm not building apps, I'm hanging out with my cat and exploring the cosmos.",
   summary:
-    "I've spent the past two years building web apps as a Full-Stack Software Developer, using Python and JavaScript. With a background in Computer Engineering and a major in Data Science, I'm equally at home coding and crunching numbers.",
+    `I've spent the past ${yearsWord} ${yearWord} building web apps as a Full-Stack Software Developer, using Python and JavaScript. With a background in Computer Engineering and a major in Data Science, I'm equally at home coding and crunching numbers.`,
   avatarUrl: "me.png",
   skills: [
     "AWS Lambda",
