@@ -96,14 +96,14 @@ export const DATA = {
 
   work: [
     {
-      company: "Mesa County Roofs",
-      href: "https://mesacountyroofs.com/",
-      badges: ['Project-based'],
-      location: "Remote",
-      title: "Full-Stack Software Developer",
-      logoUrl: "mcr-logo.png",
-      start: "",
-      end: "Present",
+      company: "Maptasy Sports",
+      href: "https://maptasy.com/",
+      badges: ['Full-time'],
+      location: "United States - Remote",
+      title: "Senior Software Engineer",
+      logoUrl: "maptasy-favicon.png",
+      start: "2024",
+      end: "2026",
       description:
         "Built map-based fantasy sports game using Node.js, React.js, Express.js, Socket.io, and AWS DynamoDB. Deployed game using AWS EC2 instances and Nginx. Configured tables to auto-scale based on traffic in the game.",
     },
@@ -170,7 +170,7 @@ export const DATA = {
     {
       title: "Maptasy (Map-based Fantasy Sports Game)",
       href: "https://maptasy.com/",
-      dates: "October 2024 - current",
+      dates: "October 2024 - January 2026",
       active: true,
       description:
         "Maptasy is a brainchild of fantasy-sports enthusiasts who has love for geography. I was one of the developers that built it. Using Socket.io and Node.js, the players were able to play the game seamlessly. The game has a modern look and feel thanks to React.js and TailwindCSS. It was deployed using AWS EC2 and AWS DynamoDB. It was fun building this app as I also get to dive into the world of Fantasy Sports.",
