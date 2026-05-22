@@ -95,6 +95,18 @@ export const DATA = {
   },
 
   work: [
+     {
+      company: "Inbound Found",
+      href: "https://inboundfound.com/",
+      badges: ['Full-time'],
+      location: "United States - Remote",
+      title: "AI Developer",
+      logoUrl: "",
+      start: "2026",
+      end: "2026",
+      description:
+        "Deliver AI SaaS pilots for enterprise clients across engineering, evals, QA, and production support.",
+    },
     {
       company: "Maptasy Sports",
       href: "https://maptasy.com/",
