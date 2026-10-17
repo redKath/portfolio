@@ -121,11 +121,11 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
       badges: ['Full-time'],
       location: "United States - Remote",
       title: "AI Developer",
-      logoUrl: "",
+      logoUrl: "inbound-found-logo.png",
       start: "Feb 2026",
       end: "May 2026",
       description:
-        "Deliver AI SaaS pilots for enterprise clients across engineering, evals, QA, and production support.",
+        "Delivered AI SaaS pilots for enterprise clients across engineering, evals, QA, and production support.",
     },
     {
       company: "Maptasy Sports",
@@ -181,7 +181,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
       badges: ['Internship'],
       location: "Remote",
       title: "Web Development Intern",
-      logoUrl: "",
+      logoUrl: "neodocto-logo.jpg",
       start: "2022",
       end: "2022",
       description:
