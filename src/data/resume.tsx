@@ -4,9 +4,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 const startDate = new Date('2022-10-01');
 const currentDate = new Date();
 const years = Math.floor((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25));
-const yearWord = years === 1 ? 'year' : 'years';
-const numberWords = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-const yearsWord = numberWords[years] || years.toString();
 
 export const DATA = {
   name: "Kathleen Jogno",
@@ -17,7 +14,9 @@ export const DATA = {
   description:
     "Full-Stack Software Developer, bookworm, and an astronomy nerd. When I'm not building apps, I'm hanging out with my cat and exploring the cosmos.",
   summary:
-    `I've spent the past ${yearsWord} ${yearWord} building web apps as a Full-Stack Software Developer, using Python and JavaScript. With a background in Computer Engineering and a major in Data Science, I'm equally at home coding and crunching numbers.`,
+    `I've spent ${years}+ years building web apps as a Full-Stack Software Developer, using Python and JavaScript. With a background in Computer Engineering and a major in Data Science, I'm equally at home coding and crunching numbers.
+
+I use Claude Code daily and treat AI-generated code as a draft, not a finished product. I built custom Claude Code skills (\`/map\`, \`/trace\`, \`/critique\`) that make me map the system, trace the logic, and critique generated code before I accept it. I verify by reading every diff, testing against real inputs and edge cases, and checking behavior in the running app.`,
   avatarUrl: "me.png",
   skills: [
     "AWS Lambda",
@@ -26,11 +25,13 @@ export const DATA = {
     "Alpaca API",
     "Bitbucket",
     "C++",
+    "Claude Code",
     "Django",
     "Docker",
     "Express.js",
     "FastAPI",
     "Flask",
+    "FreeSWITCH",
     "Google Ads API",
     "Google Analytics API",
     "Git",
@@ -46,6 +47,7 @@ export const DATA = {
     "Next.js",
     "Nginx",
     "Node.js",
+    "PHP",
     "Preact",
     "Python",
     "PostgreSQL",
@@ -53,11 +55,13 @@ export const DATA = {
     "React",
     "REST API",
     "Semantic HTML5",
+    "SQL Server",
     "SSH",
     "Stripe API",
     "TypeScript",
     "Tailwind CSS",
     "Trello",
+    "Vite",
     "WordPress"
   ],
   navbar: [
@@ -99,15 +103,27 @@ export const DATA = {
   },
 
   work: [
-     {
+    {
+      company: "ITAS Solutions",
+      href: "https://itas-solutions.com/",
+      badges: ['Full-time'],
+      location: "Remote",
+      title: "Full-Stack Software Developer",
+      logoUrl: "ITAS-LOGO.png",
+      start: "May 2026",
+      end: "Present",
+      description:
+        "Build internal web tools and backend services, including a Python admin panel for live network status monitoring and PHP 8.5 call-control integrations with FreeSWITCH over the Event Socket Layer. Develop front-end features in TypeScript, React, and Vite, work with MySQL and SQL Server, and debug authentication, TLS, and connectivity issues across Linux and Windows Server.",
+    },
+    {
       company: "Inbound Found",
       href: "https://inboundfound.com/",
       badges: ['Full-time'],
       location: "United States - Remote",
       title: "AI Developer",
       logoUrl: "",
-      start: "2026",
-      end: "2026",
+      start: "Feb 2026",
+      end: "May 2026",
       description:
         "Deliver AI SaaS pilots for enterprise clients across engineering, evals, QA, and production support.",
     },
@@ -121,7 +137,7 @@ export const DATA = {
       start: "2024",
       end: "2026",
       description:
-        "Built map-based fantasy sports game using Node.js, React.js, Express.js, Socket.io, and AWS DynamoDB. Deployed game using AWS EC2 instances and Nginx. Configured tables to auto-scale based on traffic in the game.",
+        "Owned most of the engineering for a map-based fantasy sports game, from development and testing to deployment and production support. Built the front end and back end with React.js, Node.js, Express.js, Socket.io, and AWS DynamoDB. Deployed on AWS EC2 with Nginx and configured DynamoDB tables to auto-scale with game traffic. Handled on-call triage and fixes for production bugs.",
     },
     {
       company: "Answerphone of America",
@@ -136,7 +152,7 @@ export const DATA = {
         "Implemented data visualization pages for MVP using Next.js, TailwindCSS, Chakra-UI, Apex Charts and Google Ads + Google Analytics API. Deployed MVP using Digital Ocean, Nginx and Ubuntu server. Built landing page for MVP using Next.js, TailwindCSS, React Bootstrap, and HTML5.",
     },
     {
-      company: "Gravitas Messaging Services",
+      company: "Gravitas Messaging Services (ITAS Solutions)",
       badges: ['Full-time'],
       href: "https://itas-solutions.com/",
       location: "Remote",
@@ -145,7 +161,7 @@ export const DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Implemented custom API endpoints using Python to fetch and display dynamic data on the website, ensuring seamless data integration and real-time updates. Developed custom reusable components using Preact, HTML, CSS, and jQuery, streamlining the creation of dynamic web pages and enhancing the overall user experience across the website.",
+        "Implemented custom API endpoints using Python to fetch and display dynamic data on the website, ensuring seamless data integration and real-time updates. Developed custom reusable components using Preact, HTML, CSS, and jQuery, streamlining the creation of dynamic web pages and enhancing the overall user experience across the website. Gravitas was a product under ITAS Solutions and has since been discontinued.",
     },
     {
       company: "Dictel LLC",
@@ -184,12 +200,47 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AeroTrack - Live Flight Tracking",
+      href: "https://aerotrack-9z4c.vercel.app/",
+      dates: "November 2025 - current",
+      active: true,
+      description:
+        "Real-time flight tracking web app with interactive maps. Built with React, TypeScript, Socket.IO & OpenSky Network API. Features live aircraft positions, detailed flight info, and mobile-responsive design. Built with Claude Code. I reviewed every diff, tested against live OpenSky data and edge cases, and fixed issues the generated code missed, such as outdated OpenSky API endpoints and query parameters, which I checked against the current API docs and corrected.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "Express.js",
+        "Render",
+        "Node.js",
+        "Vercel",
+        "Socket.io",
+        "TailwindCSS",
+        "OpenSky Network API",
+        "Leaflet.js",
+        "Claude Code",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://aerotrack-9z4c.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/redKath/aerotrack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "aerotrack-website.png",
+      video: ""
+    },
+    {
       title: "Maptasy (Map-based Fantasy Sports Game)",
       href: "https://maptasy.com/",
       dates: "October 2024 - January 2026",
       active: true,
       description:
-        "Maptasy is a brainchild of fantasy-sports enthusiasts who has love for geography. I was one of the developers that built it. Using Socket.io and Node.js, the players were able to play the game seamlessly. The game has a modern look and feel thanks to React.js and TailwindCSS. It was deployed using AWS EC2 and AWS DynamoDB. It was fun building this app as I also get to dive into the world of Fantasy Sports.",
+        "Maptasy is a brainchild of fantasy-sports enthusiasts who love geography. I handled most of the engineering, from development and testing to deployment and production support. Using Socket.io and Node.js, the players were able to play the game seamlessly. The game has a modern look and feel thanks to React.js and TailwindCSS. It was deployed using AWS EC2 and AWS DynamoDB. It was fun building this app as I also get to dive into the world of Fantasy Sports.",
       technologies: [
         "AWS DynamoDB",
         "AWS EC2",
@@ -208,40 +259,6 @@ export const DATA = {
         },
       ],
       image: "maptasy-website.png",
-      video: ""
-    },
-    {
-      title: "AeroTrack - Live Flight Tracking",
-      href: "https://aerotrack-9z4c.vercel.app/",
-      dates: "November 2025 - current",
-      active: true,
-      description:
-        "Real-time flight tracking web app with interactive maps. Built with React, TypeScript, Socket.IO & OpenSky Network API. Features live aircraft positions, detailed flight info, and mobile-responsive design. ",
-      technologies: [
-        "React.js",
-        "Typescript",
-        "Express.js",
-        "Render",
-        "Node.js",
-        "Vercel",
-        "Socket.io",
-        "TailwindCSS",
-        "OpenSky Network API",
-        "Leaflet.js",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://aerotrack-9z4c.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/redKath/aerotrack",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "aerotrack-website.png",
       video: ""
     },
     // {

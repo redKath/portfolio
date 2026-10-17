@@ -208,8 +208,7 @@ export default function Page() {
                 >
                   with a direct question on my email
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I can.
               </p>
             </div>
           </BlurFade>
