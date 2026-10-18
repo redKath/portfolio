@@ -53,6 +53,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
     "PostgreSQL",
     "Prisma",
     "React",
+    "React Hook Form",
     "REST API",
     "Semantic HTML5",
     "SQL Server",
@@ -60,9 +61,11 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
     "Stripe API",
     "TypeScript",
     "Tailwind CSS",
+    "TanStack Table",
     "Trello",
     "Vite",
-    "WordPress"
+    "WordPress",
+    "Zod"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -205,7 +208,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
       dates: "November 2025 - current",
       active: true,
       description:
-        "Real-time flight tracking web app with interactive maps. Built with React, TypeScript, Socket.IO & OpenSky Network API. Features live aircraft positions, detailed flight info, and mobile-responsive design. Built with Claude Code. I reviewed every diff, tested against live OpenSky data and edge cases, and fixed issues the generated code missed, such as outdated OpenSky API endpoints and query parameters, which I checked against the current API docs and corrected.",
+        "Real-time flight tracking web app with interactive maps. Built with React, TypeScript, Socket.IO & OpenSky Network API. Features live aircraft positions, detailed flight info, and mobile-responsive design. Built with Claude Code. I reviewed every diff, tested against live OpenSky data and edge cases, and fixed issues the generated code missed, such as outdated OpenSky API endpoints and query parameters, which I checked against the current API docs and corrected. Live data depends on the OpenSky Network API, which may limit requests from cloud-hosted servers, so flights may not always appear on the live demo.",
       technologies: [
         "React.js",
         "Typescript",
@@ -232,6 +235,66 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
         },
       ],
       image: "aerotrack-website.png",
+      video: ""
+    },
+    {
+      title: "Onboarding Form: Multi-Step Wizard",
+      href: "https://onboarding-form-eight-chi.vercel.app/",
+      dates: "October 2026",
+      active: true,
+      description:
+        "Multi-step employee onboarding form built with Next.js (App Router), TypeScript, and Tailwind. Each step is validated with Zod and react-hook-form, with conditional fields such as contract end dates and office selection. Progress is saved to localStorage, and a review step lets you jump back to edit any section. Accessible and mobile-responsive.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zod",
+        "React Hook Form",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://onboarding-form-eight-chi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/redKath/onboarding-form",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "onboarding-form-website.png",
+      video: ""
+    },
+    {
+      title: "Records Dashboard: Internal Data Table",
+      href: "https://records-dashboard-phi.vercel.app/",
+      dates: "October 2026",
+      active: true,
+      description:
+        "Internal employee records dashboard with sortable, searchable, filterable data tables and pagination, built on TanStack Table and mock JSON. Includes a detail drawer, add/edit/delete with Zod validation, and a card layout on mobile. Built using a branch-and-PR workflow with Vercel previews.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "TanStack Table",
+        "Zod",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://records-dashboard-phi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/redKath/records-dashboard",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "records-dashboard-website.png",
       video: ""
     },
     {
