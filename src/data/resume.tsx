@@ -19,6 +19,7 @@ export const DATA = {
 I use Claude Code daily and treat AI-generated code as a draft, not a finished product. I built custom Claude Code skills (\`/map\`, \`/trace\`, \`/critique\`) that make me map the system, trace the logic, and critique generated code before I accept it. I verify by reading every diff, testing against real inputs and edge cases, and checking behavior in the running app.`,
   avatarUrl: "me.png",
   skills: [
+    "Accessibility Testing (axe)",
     "AWS Lambda",
     "AWS EC2",
     "AWS DynamoDB",
@@ -28,6 +29,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
     "Claude Code",
     "Django",
     "Docker",
+    "End-to-End Testing",
     "Express.js",
     "FastAPI",
     "Flask",
@@ -36,6 +38,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
     "Google Analytics API",
     "Git",
     "GitHub",
+    "GitHub Actions (CI)",
     "jQuery",
     "Koa.js",
     "LibreChat",
@@ -48,6 +51,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
     "Nginx",
     "Node.js",
     "PHP",
+    "Playwright",
     "Preact",
     "Python",
     "PostgreSQL",
@@ -243,7 +247,7 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
       dates: "October 2026",
       active: true,
       description:
-        "Multi-step employee onboarding form built with Next.js (App Router), TypeScript, and Tailwind. Each step is validated with Zod and react-hook-form, with conditional fields such as contract end dates and office selection. Progress is saved to localStorage, and a review step lets you jump back to edit any section. Accessible and mobile-responsive.",
+        "Multi-step employee onboarding form built with Next.js (App Router), TypeScript, and Tailwind. Each step is validated with Zod and react-hook-form, with conditional fields, saved progress, and a review step. Covered by 78 Playwright end-to-end tests across desktop Chromium, WebKit, and a mobile viewport, including validation boundaries, persistence, keyboard-only navigation, and axe accessibility scans, run on every PR with GitHub Actions. The suite caught a real bug (hidden conditional fields keeping stale validation errors), which I fixed in a follow-up PR.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -251,6 +255,9 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
         "Zod",
         "React Hook Form",
         "Vercel",
+        "Playwright",
+        "axe-core",
+        "GitHub Actions",
       ],
       links: [
         {
@@ -261,6 +268,11 @@ I use Claude Code daily and treat AI-generated code as a draft, not a finished p
         {
           type: "Source",
           href: "https://github.com/redKath/onboarding-form",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Tests",
+          href: "https://github.com/redKath/onboarding-form/tree/main/tests",
           icon: <Icons.github className="size-3" />,
         },
       ],
